@@ -13,7 +13,7 @@ Avogadro = 6.02214076e23
 Boltzmann = 1.38064852e-23
 
 def wallHitCheck(pos, vels, box):
-    """ This function enforces reflective boundary conditions.
+    """ This function enforces refective boundary conditions.
     All particles that hit a wall  have their velocity updated
     in the opposite direction.
     @pos: atomic positions (ndarray)
